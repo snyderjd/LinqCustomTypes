@@ -1,0 +1,11 @@
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/bin/Debug/netcoreapp3.0/LinqCustomType
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/bin/Debug/netcoreapp3.0/LinqCustomType.deps.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/bin/Debug/netcoreapp3.0/LinqCustomType.runtimeconfig.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/bin/Debug/netcoreapp3.0/LinqCustomType.runtimeconfig.dev.json
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/bin/Debug/netcoreapp3.0/LinqCustomType.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/bin/Debug/netcoreapp3.0/LinqCustomType.pdb
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/obj/Debug/netcoreapp3.0/LinqCustomType.csprojAssemblyReference.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/obj/Debug/netcoreapp3.0/LinqCustomType.AssemblyInfoInputs.cache
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/obj/Debug/netcoreapp3.0/LinqCustomType.AssemblyInfo.cs
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/obj/Debug/netcoreapp3.0/LinqCustomType.dll
+/home/snyderjosephd/nss/workspace/csharp/exercises/LinqCustomType/obj/Debug/netcoreapp3.0/LinqCustomType.pdb
