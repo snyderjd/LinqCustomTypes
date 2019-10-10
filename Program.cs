@@ -32,18 +32,27 @@ namespace LinqCustomType
             // FTB: 1
             // CITI: 1
 
-            var report = customers.GroupBy(
-                customer => customer.Bank
-            );
+            // Make a list of all the banks
+            List<string> bankTickers = customers.Select(customer => customer.Bank).Distinct().ToList();
+            List<Bank> banks = new List<Bank>();
 
-            foreach(var result in report)
+            foreach(string bankTicker in bankTickers)
             {
-                foreach(Customer customer in result)
+                banks.Add(new Bank(bankTicker, 0));
+            }
+
+            // Loop through each bank. For each bank, loop through the customers and if the customer's bank matches the current bank and their balance is greater than $1mm, increment the NumMillionaires for that bank
+            Console.WriteLine("Bank Millionaires Report");
+            foreach(Bank bank in banks)
+            {
+                foreach(Customer customer in customers)
                 {
-                    Console.WriteLine(customer.Name);
-                    Console.WriteLine(customer.Balance);
-                    Console.WriteLine(customer.Bank);
+                    if (customer.Bank == bank.Ticker && customer.Balance >= 1000000)
+                    {
+                        bank.NumMillionaires += 1;
+                    }
                 }
+                Console.WriteLine($"{bank.Ticker}: {bank.NumMillionaires}");
             }
 
         }
