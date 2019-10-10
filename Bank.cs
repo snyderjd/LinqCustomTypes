@@ -7,12 +7,6 @@ namespace LinqCustomType
     public class Bank
     {
         public string Ticker { get; set; }
-        public int NumMillionaires { get; set; }
-
-        public Bank(string ticker, int millionaires)
-        {
-            Ticker = ticker;
-            NumMillionaires = millionaires;
-        }
+        public string Name { get; set; }
     }
 }
